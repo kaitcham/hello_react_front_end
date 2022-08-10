@@ -7,7 +7,7 @@ const initialState = [];
 
 export const greetings = (payload) => ({
   type: GET_GREETINGS,
-  payload
+  payload,
 });
 
 export const getGreetings = () => async (dispatch) => {
